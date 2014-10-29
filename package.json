@@ -1,0 +1,21 @@
+{
+  "name": "nodeTest",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "socket.io": "x",
+    "ejs": "x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
