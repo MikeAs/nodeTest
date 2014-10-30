@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+var port = process.env.PORT || 5000
 
 // Chargement du fichier index.html affiché au client
 var server = http.createServer(function(req, res) {
@@ -27,4 +28,4 @@ io.sockets.on('connection', function (socket) {
 	})
 });
 
-server.listen(5000);
+server.listen(port);
